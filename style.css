@@ -1,46 +1,45 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    color: #eee;
-    font-family: sans-serif;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    text-align: center;
+  color: #eee;
+  font-family: sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
 }
-
 
 /* notre img s'adapte à la page*/
 .bg-image {
-    background: url(./img/photo_45.jpg) no-repeat center/cover;
-    height: 100vh;
-    width: 100%;
-    /*filter floutte l'img*/
-    filter: blur(4px) contrast(80%);
+  background: url(./img/photo_45.jpg) no-repeat center/cover;
+  height: 100vh;
+  width: 100%;
+  /*filter floutte l'img*/
+  filter: blur(4px) contrast(80%);
 }
 
 /* On centre le txt*/
 h1 {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.15);
-    padding: 2rem 3rem;
-    color: pink;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.15);
+  padding: 2rem 3rem;
+  color: pink;
 }
 
 .fa-tint {
-    color: rgb(160, 160, 160);
-    position: absolute;
-    top: -20px;
-    animation: fall linear forwards;
+  color: rgb(192, 192, 192);
+  position: absolute;
+  top: -20px;
+  animation: fall linear forwards;
 }
 
 @keyframes fall {
-    to {
-        transform: translateY(105vh);
-    }
+  to {
+    transform: translateY(105vh);
+  }
 }
