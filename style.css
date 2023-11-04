@@ -28,7 +28,7 @@ h1 {
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.15);
   padding: 2rem 3rem;
-  color: pink;
+  color: rgb(158, 99, 108);
 }
 
 .fa-tint {
